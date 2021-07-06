@@ -146,15 +146,60 @@ h3 {
   width: 33.33%;
   text-align: center;
 }
+
+.social{
+  text-decoration: none;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  padding: 6px 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.fa {
+  padding: 20px;
+  width: 40px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.social h2{
+  color: white;
+}
 footer{
   text-align: center;
   padding: 50px 0 80px 0;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-  color: #1ddf9e;
+  background-image: linear-gradient(#2b2b2b, #181818);
+  color: #ebcdcd;
 }
 footer h1{
-  color: #777676;
+  color: #f1a9a9;
 }
 footer span{
-  color: rgb(51, 180, 0);
+  color: orange;
 }
